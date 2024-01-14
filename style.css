@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Sora", sans-serif;
+}
+
+main {
+    margin: auto;
+
+}
+
+.testimoni_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 72px;
+    gap: 50px;
+}
+
+.review {
+    flex-grow: 1;
+    margin-right: 80px;
+}
+
+.review p:nth-child(1) {
+    border-radius: 50%;
+    background-color: #F5C044;
+    width: 40px;
+    padding: 9px;
+    color: #D4D4D8;
+    margin-bottom: 15px;
+}
+
+.review h2 {
+    font-size: 2.25rem;
+    color: #18181B;
+    margin-bottom: 15px;
+}
+
+.review p:nth-child(3) {
+    font-size: 1.25rem;
+    line-height: 30px;
+    color: #52525A;
+    margin-bottom: 30px;
+}
+
+.review ul {
+    color: #52525A;
+    text-align: left;
+
+}
+
+.review ul li {
+    line-height: 16px;
+    position: relative;
+    font-size: 0.875rem;
+    margin: 10px 0;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    gap: 8px;
+}
+
+.right_panel {
+    display: flex;
+    flex-direction: column;
+}
+.reviewer{
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+
+}
+.riewer_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+.riewer_top img:nth-child(1){
+    width: 25%;
+}
+.star_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.reviewer h4 {
+    color: #18181B;
+    font-size: 1rem;
+    margin: 20px 0 10px 0;
+}
+.reviewer p{
+    font-size: 1rem;
+    color: #52525A;
+}
+.right{
+   margin-left: 180px;
+}
+.left{
+    position: relative;
+    margin-right: 250px;
+    margin-top:80px ;
+}
+
+@media screen and (max-width : 1240px) {
+    .testimoni_container{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .review{
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width:610px) {
+    .right{
+        margin-left: 0px;
+     }
+    .left{
+        margin-right: 0px;
+    }
+}
